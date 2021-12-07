@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Love & Life</title>
+	<meta charset="utf-8">
+	<meta name="description" content="we are just testing our html knowledge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" media="all">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.2.0-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/admin-style.css">
+</head>
+<body>
+	<header class="header" id="home">
+		HEADER
+	</header>
+	<nav class="side-nav">
+		<ul class="side-nav__list">
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Update Mission Statement
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Update Vision Statement
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Update About Section
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Update Contact Details
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Register Admin Member
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Register Member
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Update Monthly Post
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Upload Photo
+				</a>
+			</li>
+			<li class="side-nav__item">
+				<a href="#" class="side-nav__link">
+					Upload Video
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="main">
+		<h3 class="heading-primary">Admin Dashboard</h3>
+		<div class="wrapper">
+			<div class="wrapper__item">
+				<a href="#pop-up" class="wrapper__item-link">
+					<div class="wrapper__item-div">
+						<i class="fa fa-empire wrapper-item__icon"></i>
+						<p class="wrapper__item-label">Daily Visit</p>
+						<p class="wrapper__item-count">45,00</p>
+					</div>
+				</a>	
+			</div>
+			<div class="wrapper__item">
+				<a href="#total-members-pop-up" class="wrapper__item-link">
+					<div class="wrapper__item-div">
+						<i class="fa fa-group wrapper-item__icon"></i>
+						<p class="wrapper__item-label">Total Members</p>
+						<p class="wrapper__item-count">45,00</p>
+					</div>
+				</a>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-group wrapper-item__icon"></i>
+					<p class="wrapper__item-label">New Members</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+			<div class="wrapper__item">
+				<a href="#pending-members" class="wrapper__item-link">
+					<div class="wrapper__item-div">
+						<i class="fa fa-bell wrapper-item__icon"></i>
+						<p class="wrapper__item-label">Pending Approval</p>
+						<p class="wrapper__item-count">45,00</p>
+					</div>
+				</a>
+			</div>
+			<div class="wrapper__item">
+				<a href="#admin-members-pop-up" class="wrapper__item-link">
+					<div class="wrapper__item-div">
+						<i class="fa fa-user wrapper-item__icon"></i>
+						<p class="wrapper__item-label">Admin Members</p>
+						<p class="wrapper__item-count">45,00</p>
+					</div>
+				</a>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-calendar wrapper-item__icon"></i>
+					<p class="wrapper__item-label">Current Event</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-calendar-plus-o wrapper-item__icon"></i>
+					<p class="wrapper__item-label"> Upcoming Event</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-envelope wrapper-item__icon"></i>
+					<p class="wrapper__item-label"> Message</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-empire wrapper-item__icon"></i>
+					<p class="wrapper__item-label">Videos</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-empire wrapper-item__icon"></i>
+					<p class="wrapper__item-label">Photos</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+			<div class="wrapper__item">
+				<div class="wrapper__item-div">
+					<i class="fa fa-empire wrapper-item__icon"></i>
+					<p class="wrapper__item-label">Total Post</p>
+					<p class="wrapper__item-count">45,00</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!--POP UP MARK UP BEGINS HERE -->
+	<div class="pop-up" id="admin-members-pop-up">
+		<h3 class="heading-tertiary">Love & Life Admin Team</h3>
+		<a href="#home" class="close-pop-up">&times;</a>
+		<div class="admin-members-container">
+			<div class="row">
+				<div class="content-container">
+					<div class="content-div">
+						<div class="content-item">
+							<div class="content-item__photo"style="background-image: url(./images/prosper.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Prosper Emenike</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Favourite Quote:</h5>
+								<h5 class="content-item__details-value">
+									Never Kill A man who has not said anything yet
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item">
+							<div class="content-item__photo"style="background-image: url(./images/john.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">John Emenike</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Favourite Quote:</h5>
+								<h5 class="content-item__details-value">
+									Never Kill A man who has not said anything yet
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item">
+							<div class="content-item__photo"style="background-image: url(./images/faith.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Faith Philip</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Favourite Quote:</h5>
+								<h5 class="content-item__details-value">
+									Never Kill A man who has not said anything yet
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item">
+							<div class="content-item__photo"style="background-image: url(./images/faith.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Faith Philip</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Favourite Quote:</h5>
+								<h5 class="content-item__details-value">
+									Never Kill A man who has not said anything yet
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item">
+							<div class="content-item__photo"style="background-image: url(./images/gody.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Favourite Quote:</h5>
+								<h5 class="content-item__details-value">
+									Never Kill A man who has not said anything yet
+								</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pop-up" id="total-members-pop-up">
+		<h3 class="heading-tertiary">Total Members</h3>
+		<a href="#home" class="close-pop-up">&times;</a>
+		<div class="total-members-container">
+
+			<!--<table class="table-responsive">
+				<thead>
+					<th width="50px" class="table-heading">SN</th>
+					<th width="170px" class="table-heading">Photo</th>
+					<th width="350px" class="table-heading">Name</th>
+					<th width="350px" class="table-heading">Phone</th>
+					<th width="100px" class="table-heading">Dob</th>
+					<th width="100px" class="table-heading">Gender</th>
+					<th width="350px" class="table-heading">Comment</th>
+				</thead>
+				<tbody>
+					<tr class="table-row">
+						<td class="tableData">1</td>
+						<td class="tableData">
+							<div class="table-img" style="background-image: url(./images/prosper.jpg);"></div>
+						</td>
+						<td class="tableData">Godwin Inyene</td>
+						<td class="tableData">08144098649</td>
+						<td class="tableData">15/Oct</td>
+						<td class="tableData">Male</td>
+						<td class="tableData">Love is cool and awesome you guys are trying</td>
+					</tr>
+
+					<tr class="table-row">
+						<td class="tableData">2</td>
+						<td class="tableData">
+							<div class="table-img" style="background-image: url(./images/faith.jpg);"></div>
+						</td>
+						<td class="tableData">Godwin Inyene</td>
+						<td class="tableData">08144098649</td>
+						<td class="tableData">15/Oct</td>
+						<td class="tableData">Male</td>
+						<td class="tableData">Love is cool and awesome you guys are trying</td>
+					</tr>
+
+					<tr class="table-row">
+						<td class="tableData">2</td>
+						<td class="tableData">
+							<div class="table-img" style="background-image: url(./images/innocentia.jpg);"></div>
+						</td>
+						<td class="tableData">Godwin Inyene</td>
+						<td class="tableData">08144098649</td>
+						<td class="tableData">15/Oct</td>
+						<td class="tableData">Male</td>
+						<td class="tableData">
+							Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+							it was really nice fellowship with you guys.
+						</td>
+					</tr>
+				</tbody>
+			</table>-->
+		</div>
+		<div class="loader"></div>
+		<style type="text/css">
+			.loader{
+				height: 12rem;
+				width: 12rem;
+				border-radius: 50%;
+				border:1.6rem solid #f3f3f3;
+				border-top: 1.6rem solid black;
+				animation-name: spin;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+				margin: auto;
+				margin-top: 2rem;
+			}
+			@keyframes spin{
+				0%{
+					transform: rotate(0deg);
+				}
+				100%{
+					transform: rotate(360deg);
+				}
+			}
+		</style>
+
+
+
+			<div class="row">
+				<div class="content-container-2">
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/prosper.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/doctor.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/goldy.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/faith.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/innocentia.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">Nill</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/pst.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">Nill</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/pix.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">Nill</p>
+							</div>
+						</div>
+					</div>
+					<div class="content-div u-span-4-col">
+						<div class="content-item u-remove-padding-top">
+							<div class="content-item__photo u-size-pic"style="background-image: url(./images/prince.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">Nill</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pop-up" id="pending-members">
+		<h3 class="heading-tertiary">Members Pending Approval</h3>
+		<a href="#home" class="close-pop-up">&times;</a>
+		<div class="members-pending-container">
+			<div class="row">
+				<div class="content-container-2">
+					<div class="content-div">
+						<div class="content-item content-item--2">
+							<div class="content-item__photo content-item__photo--2 u-size-pic"style="background-image: url(./images/prosper.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+								</p>
+								<button class="btn">Published</button>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item content-item--2">
+							<div class="content-item__photo content-item__photo--2 u-size-pic"style="background-image: url(./images/bae2.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Nill
+								</p>
+								<button class="btn">Published</button>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item content-item--2">
+							<div class="content-item__photo content-item__photo--2 u-size-pic"style="background-image: url(./images/gody.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Love and life has affected my life in so many ways, you guys should keep it up, more grace!
+								</p>
+								<button class="btn">Published</button>
+							</div>
+						</div>
+					</div>
+					<div class="content-div">
+						<div class="content-item content-item--2">
+							<div class="content-item__photo content-item__photo--2 u-size-pic"style="background-image: url(./images/john.jpg);">
+							</div>
+							<div class="content-item__details">
+								<h5 class="content-item__details-heading">Name:</h5>
+								<h5 class="content-item__details-value">Godwin Inyene</h5>
+								<h5 class="content-item__details-heading">Phone:</h5>
+								<h5 class="content-item__details-value">08144098649</h5>
+								<h5 class="content-item__details-heading">Date of Birth:</h5>
+								<h5 class="content-item__details-value">30/October</h5>
+								<h5 class="content-item__details-heading">Comment:</h5>
+								<p class="content-item__details-value">
+									Nill
+								</p>
+								<button class="btn">Published</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="bootstrap-3.2.0-dist/js/jquery-2.1.1.min.js"></script>
+	<script src="bootstrap-3.2.0-dist/js/bootstrap.js"></script>
+</html>	
